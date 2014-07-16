@@ -32,7 +32,7 @@ router.post('/logout', function (req, res) {
 });
 
 router.get('/board', function (req, res) {
-	res.render('index', {message : '여기도 안만듬'});
+	res.render('index', {message :  '안만듬' , login : req.session.login});
 });
 
 router.get('/signup', function (req, res) {
