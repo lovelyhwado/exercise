@@ -1,1 +1,3 @@
-data
+upload
+upload/*
+npm-debug.log
